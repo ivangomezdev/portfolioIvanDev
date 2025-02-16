@@ -9,7 +9,7 @@
 .card {
   width: 250px;
   height: 250px;
-  padding: 16px;
+  padding: 7px;
   perspective: 1000px; /* Da profundidad para el efecto 3D */
   line-height: 1.4;
   font-size: 13px;
