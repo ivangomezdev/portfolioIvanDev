@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "./FrontSkills.css"
 const FrontSkills = () => {
   return (
