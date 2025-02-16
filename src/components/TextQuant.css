@@ -1,0 +1,28 @@
+.textQuant__content p {
+  font-size: 1rem; /* Usar unidades relativas */
+  margin-top: 5px;
+  color: gray;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.textQuant__content span {
+  font-weight: bold;
+  font-size: 1.2rem; /* Ajustar el tamaño relativo del número */
+}
+
+.textQuant__content {
+  text-align: center;
+  width: 60px; /* Mantener el ancho fijo */
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .textQuant__content p {
+    font-size: 0.9rem; /* Reducir el tamaño del texto en pantallas pequeñas */
+  }
+
+  .textQuant__content span {
+    font-size: 1.1rem; /* Reducir el tamaño del número */
+  }
+}

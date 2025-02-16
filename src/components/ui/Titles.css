@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.titles__title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
+    padding: 5px;
+  margin-left: 200px;
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(#6BB8F7, #6BB8F7);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+   transition: background-size .7s, background-position .5s ease-in-out;
+}
+
+.titles__title:hover {
+
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+}

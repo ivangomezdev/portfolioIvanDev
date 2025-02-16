@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.atom {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 8s linear infinite;
+}
+
+.nucleus {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #61dafb;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px #61dafb;
+}
+
+.orbit {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #61dafb4d;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+}
+
+.electron {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #61dafb;
+    border-radius: 50%;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 15px #61dafb;
+}
+
+.orbit:nth-child(2) {
+    transform: rotateX(60deg) rotateY(60deg);
+}
+
+.orbit:nth-child(3) {
+    transform: rotateX(-60deg) rotateY(-60deg);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateX(0) rotateY(0) rotateZ(0);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+}
+
+/* Animación para electrones */
+.orbit {
+    animation: orbit 4s linear infinite;
+}
+
+@keyframes orbit {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+/* Efecto hover */
+.atom:hover {
+    animation-play-state: paused;
+}

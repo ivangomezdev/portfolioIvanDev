@@ -1,0 +1,33 @@
+.skillsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Se adapta */
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  
+  /* Hacer que la tercera card ocupe 2 columnas en pantallas grandes */
+  @media (min-width: 900px) {
+    .skillsCard__card:nth-child(3) {
+      grid-column: span 2;
+    }
+  }
+  
+  /* Asegurar que las cards sean proporcionales en pantallas pequeñas */
+  @media (max-width: 900px) {
+    .skillsContainer {
+     display: flex;
+     flex-direction: column;
+     width: 360px;
+     justify-content: center;
+     margin: auto;
+    }
+    
+    .skillsCard__card:nth-child(3) {
+      grid-column: span 1; /* Se comporta como las demás */
+    }
+  }
+  
+
+  

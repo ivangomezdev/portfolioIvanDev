@@ -1,0 +1,118 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  
+}
+
+.card{
+    padding: 5px;
+    margin-bottom:  5px !important;
+}
+
+.cards .card {
+  border: solid 1px rgba(128, 128, 128, 0.063);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #b9b9b92c;
+  height: 60px;
+  margin: 0 auto;
+  width: 350px;
+  border-radius: 10px;
+  color: rgb(132, 132, 132);
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards .card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.cards:hover > .card:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+
+.card__tip{
+    font-weight: bold;
+}
+
+.card__second-text{
+    margin-top: -10px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .cards .card {
+    border: solid 1px rgba(128, 128, 128, 0.312);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #b9b9b92c;
+    height: 60px;
+    width: 350px;
+    border-radius: 10px;
+    color: rgb(132, 132, 132);
+    cursor: pointer;
+    transition: 400ms;
+    padding: 0 20px;
+    gap: 10px;
+  
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease-out forwards;
+  }
+  
+  /* Aplica un delay progresivo a cada card */
+  .cards .card:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  .cards .card:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  .cards .card:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  .cards .card:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media(max-width:410px){
+    .card{
+    width: 280px !important;
+  
+  }
+
+  
+  .card__tip{
+    font-size: 13px;
+  
+  }
+
+  .card__second-text{
+    font-size: 13px;
+  
+  }
+  }

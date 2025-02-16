@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Incluye padding y border en el tamaño total */
+  overflow-x: hidden; /* Elimina el scroll horizontal */
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+.main__cont {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+}

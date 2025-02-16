@@ -1,0 +1,13 @@
+.socialButtons__cont{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
+
+.socialButtons__buttons{
+ margin-left: 20px;
+ display: flex;
+ gap: 5px;
+ 
+}

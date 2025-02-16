@@ -1,0 +1,12 @@
+.paginationTabs__contentMobile{
+    display: none !important;
+}
+
+@media (max-width:750px){
+    .paginationTabs__contentBig{
+        display: none !important;
+    }
+    .paginationTabs__contentMobile{
+        display: block !important
+    }
+}

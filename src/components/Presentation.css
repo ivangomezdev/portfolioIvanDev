@@ -1,0 +1,33 @@
+.presentation__profileText h6{
+margin-top: -13px;
+font-size: 13px;
+color: gray;
+
+}
+
+.presentation__profileText h2{
+
+ font-size: 21px;
+}
+
+.presentation__profileImg {
+   
+    border-radius: 50% !important;
+    height: fit-content;
+    margin-top: 30px;
+    margin-left: 220px;
+    
+  }
+  
+
+.presentation__textQuant{
+display: flex;
+gap: 40px;
+text-align: center;
+
+}
+
+.presentation__content{
+  display: flex;
+  justify-content: center;
+}
