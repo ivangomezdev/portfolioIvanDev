@@ -81,14 +81,14 @@ const Contact = () => {
   };
 
   return (
-    <div class="cards">
+    <div className="Contact__cards">
       {ContactData.map((i, index) => {
         return (
-          <div onClick={() => handleCopy(i.text)} key={index} class="card">
+          <div onClick={() => handleCopy(i.text)} key={index} className="Contact__card">
             {i.icon}
-            <div className="card__text">
-              <p className="card__tip">{i.title} </p>
-              <p className="card__second-text">{i.text}</p>
+            <div className="Contact__card__text">
+              <p className="Contact__card__tip">{i.title} </p>
+              <p className="Contact__card__second-text">{i.text}</p>
             </div>
           </div>
         );
