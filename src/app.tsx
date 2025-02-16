@@ -20,7 +20,9 @@ export function App() {
       <Sidebar />
       <div className="content">
         <header className="header__content">
+          <div className="header__profileImg">
           <ProfileRotation />
+          </div>
           <Presentation />
           <SocialButtons />
           <Divider style={{ marginTop: "30px" }} flexItem />

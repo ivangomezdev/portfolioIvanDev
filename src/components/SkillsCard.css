@@ -75,4 +75,17 @@ font-size: 14px;
  
 }
 
+@media(max-width:374px){
+.skillsCard__card{
+  margin: 0 auto;
+  width: 230px;
+  
+}
+
+.skillsCard__skills{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+ 
+}
+}
 

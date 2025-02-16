@@ -34,3 +34,10 @@ html {
   max-width: 1200px;
   margin: 20px auto;
 }
+
+
+.header__profileImg{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}

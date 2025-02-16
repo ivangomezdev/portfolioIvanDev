@@ -17,9 +17,9 @@ const AboutMe = () => {
     { img: eigth, backImg: eigth, description: "" },
     { img: one, backImg: eigth, description: "Compromiso, creatividad y eficiencia. Me apasiona desarrollar soluciones escalables, escribir código limpio y enfrentar nuevos desafíos con determinación. Además, soy una persona que aprende rápidamente, por lo que puedo acoplarme a nuevas tecnologías." },
     { img: eigth, backImg: eigth, description: "" },
-    { img: two, backImg: eigth, description: "Desde pequeño me llamo la atención el trasfondo de las cosas, sobre todo las aplicaciones. ¿Por que pasa esto? ¿Como funciona? y a los 14 años monte una copia de mi juego favorito Habbo con un servidor de Apache,Al ver que funcionaba descurbrí que quería trabajar en tecnología." },
+    { img: two, backImg: eigth, description: "Desde pequeño me llamo la atención el trasfondo de las cosas, sobre todo las aplicaciones.A los 14 años monte una copia de mi juego favorito Habbo con un servidor de Apache, Al ver que funcionaba descurbrí que esto era para mí." },
     { img: eigth, backImg: eigth, description: "" },
-    { img: three, backImg: eigth, description: "Trabajé en DAMATEC, donde comencé como Administrativo y ascendí hasta Encargado del sector. Mi desempeño impulsó mi carrera hasta el área de Soporte IT. Desarrollé dos aplicaciones dentro de la empresa, logrando aumentar la productividad en un 60%. Hoy en día, esas aplicaciones siguen en uso." },
+    { img: three, backImg: eigth, description: "Trabajé en DAMATEC, en el área de Soporte IT. Desarrollé dos aplicaciones dentro de la empresa, logrando aumentar la productividad en un 60%. Hoy en día, esas aplicaciones siguen en uso." },
     { img: eigth, backImg: eigth, description: "" },
     { img: four, backImg: eigth, description: "En 2022 Inicié en CoderHouse como FrontEnd React finalizando mis estudios en 2023.Al finalizar Sentí que necesitaba adquirir mas conocimientos para mi primer empleo por lo que me inscribí en APX como desarrollador FullStack." },
   ];
