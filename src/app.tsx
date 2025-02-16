@@ -9,7 +9,7 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import { Divider } from "@mui/material";
-import "./App.css";
+import "./app.css";
 import ProfileRotation from "./components/ProfileRotation";
 
 export function App() {
