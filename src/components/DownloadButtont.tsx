@@ -7,6 +7,8 @@ export default function DownloadButton() {
 
   const handleClick = () => {
     setDownloading(true);
+   const cvDonwloadUrl = "https://drive.google.com/uc?export=download&id=1IUOg8xp1MnnF-0a0CNAhmSNG4wYqPiIf" 
+   window.location.href = cvDonwloadUrl;   
     setTimeout(() => {
       setDownloading(false);
     }, 3000); // Simula la descarga por 3 segundos

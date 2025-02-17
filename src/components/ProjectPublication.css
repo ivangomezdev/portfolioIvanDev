@@ -15,7 +15,7 @@
   max-width: 500px; /* Limita el ancho máximo */
   border-radius: 10px;
   padding: 1rem;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   background-color: white;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -25,6 +25,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-top: -20px;
 }
 
 .projectPublication__GIT {
@@ -41,6 +42,8 @@
   border: solid 1px gray;
   border-radius: 50%;
 }
+
+
 
 /* Texto del usuario */
 .projectPublication__fromText p {

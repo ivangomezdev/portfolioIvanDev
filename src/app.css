@@ -5,12 +5,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+
 }
 
 .content {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
+  padding: 10px;
+
 }
 
 body,

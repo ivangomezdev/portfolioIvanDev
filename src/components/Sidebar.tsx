@@ -13,21 +13,32 @@ const Sidebar = () => {
   return (
     <>
     <div className="sidebar">
+
     <ul>
       <li>
+      <a href="/">
         <HomeIcon />
+        </a>
       </li>
       <li>
+        <a href="/">
         <EmailIcon />
+        </a>
       </li>
       <li>
+      <a  href="https://drive.google.com/uc?export=download&id=1IUOg8xp1MnnF-0a0CNAhmSNG4wYqPiIf">
         <DownloadIcon />
+        </a>
       </li>
       <li>
+      <a  href="https://www.linkedin.com/in/ivangomezdeveloper/">
         <LinkedInIcon />
+        </a>
       </li>
       <li>
+      <a  href="https://github.com/ivangomezdev">
         <GitHubIcon />
+        </a>
       </li>
     </ul>
   </div> 

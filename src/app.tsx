@@ -21,6 +21,7 @@ export function App() {
       <div className="content">
         <header className="header__content">
           <div className="header__profileImg">
+          <div class="container2"></div>
           <ProfileRotation />
           </div>
           <Presentation />
